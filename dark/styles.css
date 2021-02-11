@@ -1,0 +1,41 @@
+input{
+  font-size: 20px;
+  background-color: #3C3C3C;
+  border: none;
+  color: white;
+  padding: 10px;
+  margin: 0px;
+  text-decoration: none;
+  display: inline-block;
+  border-radius : 10px;
+}
+
+.yesterday{
+  background-color: #ad0a0a;
+}
+
+
+#barre{
+  height: auto;
+}
+
+h1{
+  font-family: cursive;
+  color: white;
+}
+
+body{
+  background-image: url(test-fond\ black.jpg);
+  text-align: center;
+}
+
+p{
+  color: white;
+}
+
+.darkwhite{
+  position: absolute;
+  top: 90%;
+  left: 70%;
+  box-shadow: 1px 10px 12px #000000;
+}

@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="fr" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Guip ToDo</title>
+  <link rel="stylesheet" href="./styles.css">
+  <script src="./codes.js"></script>
+  <link rel="shortcut icon" href="logo.png" type="image/x-icon">
+</head>
+
+<body>
+  <h1>Guip ToDo</h1>
+  <p>Nouvelle tache :</p>
+  <input type="button" name="value_ok" value=" + " onclick="cvalide()">
+  <input type="text" name="value" id="value" placeholder="Nom...">
+  <br>
+  <br>
+  <input type="text" name="date" id="date" placeholder="Date... (JJ/MM/AAAA)">
+  <input type="button" name="reload" value="RE" onclick="cre()">
+  <p id="jour">Mes taches pour aujourd'hui :</p>
+  <p id="barreauj"></p>
+  <p id="autre">Toutes mes taches :</p>
+  <p id="barre"></p>
+  <input type="button" value="White Mode" class="darkwhite" onclick="cchange()">
+</body>
+
+</html>
